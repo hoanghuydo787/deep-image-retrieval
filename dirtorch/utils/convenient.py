@@ -154,35 +154,3 @@ def toc(tag='', cum=False):
         if cum=='avg': t/=nb
     print('%selpased time since %s = %gs' % ({False:'',True:'cumulated ','avg':'average '}[cum], tag,t))
     return t
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
