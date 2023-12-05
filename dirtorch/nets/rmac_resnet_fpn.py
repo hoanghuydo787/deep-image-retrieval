@@ -111,32 +111,3 @@ def resnet101_fpn0_rmac(backbone=ResNet_RMAC_FPN, **kwargs):
 def resnet152_fpn_rmac(backbone=ResNet_RMAC_FPN, **kwargs):
     kwargs.pop('scales', None)
     return backbone(Bottleneck, [3, 8, 36, 3], 'resnet152', **kwargs)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
